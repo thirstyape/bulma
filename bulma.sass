@@ -8,3 +8,10 @@
 @import "sass/grid/_all"
 @import "sass/helpers/_all"
 @import "sass/layout/_all"
+
+// Drop-down menu mobile behaviour
++until($navbar-breakpoint)
+  .navbar-dropdown
+    display: none
+    &.is-active
+      display: block
