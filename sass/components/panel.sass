@@ -34,8 +34,7 @@ $panel-colors: $colors !default
   border-radius: $panel-radius
   box-shadow: $panel-shadow
   font-size: $size-normal
-  &:not(:last-child)
-    margin-bottom: $panel-margin
+  margin-bottom: $panel-margin
   // Colors
   @each $name, $components in $panel-colors
     $color: nth($components, 1)
