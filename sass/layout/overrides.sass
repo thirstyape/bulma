@@ -1,4 +1,11 @@
+@import "../utilities/mixins"
+
+$columns-hover-background-color: $scheme-main-bis !default
+$columns-striped-even-background-color: $scheme-main-bis !default
+$columns-striped-even-hover-background-color: $scheme-main-ter !default
+
 // Drop-down menu mobile behaviour
+
 +until($navbar-breakpoint)
   .navbar-dropdown
     display: none
@@ -6,10 +13,27 @@
       display: block
 
 // Checkboxes in modal
+
 .modal-card-body
   input[type=checkbox]
     margin-right: .75em
 
 // Input textarea height
+
 textarea.input
   height: auto
+
+// Column styling
+
+.columns
+  &.is-hoverable
+    &:hover
+      background-color: $columns-hover-background-color
+    &.is-striped
+      &:hover
+        background-color: $columns-hover-background-color
+        &:nth-child(even)
+          background-color: $columns-striped-even-hover-background-color
+  &.is-striped
+    &:nth-child(even)
+      background-color: $columns-striped-even-background-color

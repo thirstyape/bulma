@@ -1,3 +1,4 @@
+@use "theme"
 @import "initial-variables"
 @import "functions"
 
@@ -56,12 +57,33 @@ $border-hover: $grey-light !default
 $border-light: $grey-lightest !default
 $border-light-hover: $grey-light !default
 
+@if theme.$is-dark == true
+  $scheme-main: $black !global
+  $scheme-main-bis: $black-bis !global
+  $scheme-main-ter: $black-ter !global
+  $scheme-invert: $white !global
+  $scheme-invert-bis: $white-bis !global
+  $scheme-invert-ter: $white-ter !global
+
+  $background: $black-ter !global
+
+  $border: $grey-dark !global
+  $border-hover: $grey !global
+  $border-light: $grey-darker !global
+  $border-light-hover: $grey-dark !global
+
 // Text colors
 
 $text: $grey-dark !default
 $text-invert: findColorInvert($text) !default
 $text-light: $grey !default
 $text-strong: $grey-darker !default
+
+@if theme.$is-dark == true
+  $text: $grey-light !global
+  $text-invert: findColorInvert($text) !global
+  $text-light: $grey-dark !global
+  $text-strong: $grey !global
 
 // Code colors
 
@@ -87,6 +109,16 @@ $link-focus-border: $blue !default
 
 $link-active: $grey-darker !default
 $link-active-border: $grey-dark !default
+
+@if theme.$is-dark == true
+  $link-hover: $grey-lighter !global
+  $link-hover-border: $grey-dark !global
+
+  $link-focus: $grey-lighter !global
+  $link-focus-border: $blue !global
+
+  $link-active: $grey-lighter !global
+  $link-active-border: $grey-light !global
 
 // Typography
 
