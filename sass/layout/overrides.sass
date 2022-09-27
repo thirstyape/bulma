@@ -37,3 +37,8 @@ textarea.input
   &.is-striped
     &:nth-child(even)
       background-color: $columns-striped-even-background-color
+
+// Icons in grouped controls with label
+.is-grouped
+  .label + .input + .icon
+    top: calc($size-normal + 0.5em + $control-padding-vertical)
