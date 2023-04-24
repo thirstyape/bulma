@@ -217,13 +217,6 @@
       "width": "160",
       "height": "34"
     },
-    "pillarwm": {
-      "name": "pillarwm",
-      "url": "https://pillarwm.com/",
-      "title": "Pillar",
-      "width": "150",
-      "height": "53"
-    },
     "sanyodigital": {
       "name": "sanyodigital",
       "url": "https://sanyodigital.com/",
@@ -288,8 +281,8 @@
     },
     "123calendars": {
       "name": "123Calendars",
-      "url": "https://www.123calendars.com/",
-      "title": "2022 Calendar",
+      "url": "https://www.123calendars.com/2023-calendar.html",
+      "title": "2023 Calendar",
       "width": "125",
       "height": "28",
       "follow": true
@@ -354,7 +347,7 @@
     },
     "kasynohex": {
       "name": "kasynohex",
-      "url": "https://kasynohex.com/",
+      "url": "https://polskiekasynohex.org/",
       "title": "KasynoHEX Polska",
       "width": "128",
       "height": "45",
@@ -510,6 +503,14 @@
       "height": "69",
       "follow": true
     },
+    "cfiblog": {
+      "name": "cfiblog",
+      "url": "https://cfi-blog.org/",
+      "title": "cfi",
+      "width": "48",
+      "height": "48",
+      "follow": true
+    },
     "casinoshunter": {
       "name": "casinoshunter",
       "url": "https://casinoshunter.com/online-casinos/",
@@ -631,57 +632,319 @@
       "width": "190",
       "height": "63"
     },
+    "everycasinobonus": {
+      "name": "everycasinobonus",
+      "url": "https://everycasinobonus.com/",
+      "title": "everycasinobonus",
+      "width": "290",
+      "height": "46"
+    },
     "kasinohai": {
       "name": "kasinohai",
       "url": "https://www.kasinohai.com/",
       "title": "kasinohai",
       "width": "125",
       "height": "50"
+    },
+    "limeup": {
+      "name": "limeup",
+      "url": "https://limeup.io/",
+      "title": "product design agency",
+      "width": "140",
+      "height": "61"
+    },
+    "y-106": {
+      "name": "y-106",
+      "url": "https://www.y-106.com/",
+      "title": "Y-106.com",
+      "width": "150",
+      "height": "73"
+    },
+    "surebet": {
+      "name": "surebet",
+      "url": "https://www.sure.bet/casinos-not-on-gamstop/",
+      "title": "surebet",
+      "width": "48",
+      "height": "47"
+    },
+    "casinoutanlicens": {
+      "name": "casinoutanlicens",
+      "url": "https://www.casinoutanlicens.io/",
+      "title": "casinoutanlicens",
+      "width": "190",
+      "height": "60"
+    },
+    "celltrackingapps": {
+      "name": "celltrackingapps",
+      "url": "https://celltrackingapps.com/",
+      "title": "Phone Trackers",
+      "width": "125",
+      "height": "51"
+    },
+    "refermate": {
+      "name": "refermate",
+      "url": "https://refermate.com/",
+      "title": "refermate",
+      "width": "138",
+      "height": "45"
+    },
+    "kingcasinobonus": {
+      "name": "kingcasinobonus",
+      "url": "https://kingcasinobonus.uk/",
+      "title": "KingCasinoBonus",
+      "width": "100",
+      "height": "60"
+    },
+    "gamblecritic": {
+      "name": "gamblecritic",
+      "url": "https://gamblecritic.com/",
+      "title": "gamblecritic",
+      "width": "192",
+      "height": "43"
+    },
+    "uudetkasinot": {
+      "name": "uudetkasinot",
+      "url": "https://www.uudetkasinot.com/",
+      "title": "uudet nettikasinot",
+      "width": "160",
+      "height": "70"
+    },
+    "casinoburst": {
+      "name": "casinoburst",
+      "url": "https://casinoburst.com/casino-utan-licens/",
+      "title": "casino utan svensk licens",
+      "width": "160",
+      "height": "70"
+    },
+    "playcasinoscanada": {
+      "name": "playcasinoscanada",
+      "url": "https://playcasinoscanada.com/casino-bonuses/birthday-bonuses/",
+      "title": "playcasinoscanada",
+      "width": "190",
+      "height": "62"
+    },
+    "noneedtostudy": {
+      "name": "noneedtostudy",
+      "url": "https://www.noneedtostudy.com/",
+      "title": "NoNeedToStudy.com - get help from expert tutors.",
+      "width": "206",
+      "height": "32"
+    },
+    "stayatcasinos": {
+      "name": "stayatcasinos",
+      "url": "https://stayatcasinos.com/",
+      "title": "Best Sports Betting Sites UK",
+      "width": "280",
+      "height": "68"
+    },
+    "bluechip": {
+      "name": "bluechip",
+      "url": "https://bluechip.io/",
+      "title": "Indian online casino",
+      "width": "160",
+      "height": "80"
+    },
+    "backlinksrocket": {
+      "name": "backlinksrocket",
+      "url": "https://www.backlinksrocket.com/",
+      "title": "backlinksrocket",
+      "width": "160",
+      "height": "80"
+    },
+    "tradingwolf": {
+      "name": "tradingwolf",
+      "url": "https://www.tradingwolf.com/",
+      "title": "Trading Wolf",
+      "width": "150",
+      "height": "29"
+    },
+    "1xbet": {
+      "name": "1xbet",
+      "url": "https://in.1xbet.com/line/cricket",
+      "title": "online cricket betting",
+      "width": "200",
+      "height": "60"
+    },
+    "nodepositpokies": {
+      "name": "nodepositpokies",
+      "url": "https://nodepositpokies.com/",
+      "title": "nodepositpokies",
+      "width": "200",
+      "height": "40"
+    },
+    "codeless": {
+      "name": "codeless",
+      "url": "https://codeless.co/",
+      "title": "codeless",
+      "width": "156",
+      "height": "48"
+    },
+    "utansvensklicens": {
+      "name": "utansvensklicens",
+      "url": "https://utansvensklicens.casino/",
+      "title": "casino utan svensk licens",
+      "width": "89",
+      "height": "48"
+    },
+    "testarna": {
+      "name": "testarna",
+      "url": "https://www.testarna.se/casino/utan-svensk-licens/utlandska/",
+      "title": "Testarna",
+      "width": "196",
+      "height": "45"
+    },
+    "sportonlinebetting": {
+      "name": "sportonlinebetting",
+      "url": "https://sportonlinebetting.net/review/agent-no-wager-casino-review/",
+      "title": "Agent No Wager Casino",
+      "width": "89",
+      "height": "48"
+    },
+    "pillarwm": {
+      "name": "pillarwm",
+      "url": "https://pillarwm.com/financial-advisor/top-financial-advisors-near-me/",
+      "title": "Pillar Wealth",
+      "width": "150",
+      "height": "53"
+    },
+    "istartips": {
+      "name": "istartips",
+      "url": "https://istar.tips/",
+      "title": "istartips",
+      "width": "173",
+      "height": "48"
+    },
+    "4rabet": {
+      "name": "4rabet",
+      "url": "https://4rabet.com/live/cricket",
+      "title": "online cricket betting",
+      "width": "196",
+      "height": "33"
+    },
+    "new-onlinecasinos": {
+      "name": "new-onlinecasinos",
+      "url": "https://new-onlinecasinos.com/",
+      "title": "New Online Casinos",
+      "width": "196",
+      "height": "39"
+    },
+    "casinoszondercruks": {
+      "name": "casinoszondercruks",
+      "url": "https://casinoszondercruks.com/",
+      "title": "casinoszondercruks",
+      "width": "48",
+      "height": "48"
+    },
+    "casinozonderregistratie": {
+      "name": "casinozonderregistratie",
+      "url": "https://casinozonderregistratie.net/",
+      "title": "No Account Casino",
+      "width": "196",
+      "height": "42"
+    },
+    "nongamstopcasinos": {
+      "name": "nongamstopcasinos",
+      "url": "https://nongamstopcasinos.net/",
+      "title": "nongamstopcasinos",
+      "width": "150",
+      "height": "48"
+    },
+    "automatenspielex": {
+      "name": "automatenspielex",
+      "url": "https://automatenspielex.com/online-casinos",
+      "title": "Casino Spiele",
+      "width": "150",
+      "height": "48"
+    },
+    "spielautomaten": {
+      "name": "spielautomaten",
+      "url": "https://spielautomaten-kostenlos-spielen.com/serioese-casinos/",
+      "title": "sichere online casinos",
+      "width": "196",
+      "height": "41"
+    },
+    "slotozilla": {
+      "name": "slotozilla",
+      "url": "https://www.slotozilla.com/de/",
+      "title": "https://www.slotozilla.com/de/",
+      "width": "84",
+      "height": "48"
+    },
+    "utlandskacasino": {
+      "name": "utlandskacasino",
+      "url": "https://xn--utlndskacasino-7hb.biz/",
+      "title": "Utländska Casino",
+      "width": "196",
+      "height": "39"
+    },
+    "paydaysay": {
+      "name": "paydaysay",
+      "url": "https://paydaysay.com/",
+      "title": "PayDaySay",
+      "width": "154",
+      "height": "48"
+    },
+    "thecasinodb": {
+      "name": "thecasinodb",
+      "url": "https://www.thecasinodb.com/",
+      "title": "UK Online Casinos, Slot Machines, and Bonuses",
+      "width": "196",
+      "height": "42"
     }
   },
   "home": [
     "themeisle",
-    "vpsserver",
     "writersperhour",
     "clothingric",
     "emucoupon",
     "namobot",
     "realtimecommunications",
     "polygon",
-    "inkoop",
-    "gamblizard",
-    "123calendars",
+    "backlinksrocket",
     "quickbookstoolhub",
     "kasynohex",
     "betrouwbaar-casino",
-    "writepaperfor",
+    "anbefalt",
     "reddogcasino",
     "rapidessay",
-    "onlinecasinohex",
-    "idealecasinos",
     "casinotopitaly",
+    "nettikasinot",
     "inkedin",
     "nongamstopwager",
+    "cfiblog",
     "pmibet",
-    "qberror",
     "casinoshunter",
     "papersowl",
-    "listcasino",
-    "flyclipart",
     "slotsempire",
-    "nycjackets",
-    "theleathercity",
     "realcasinoscanada",
-    "jrop",
     "cusl",
-    "boostlikes",
     "casinoutansvensklicens",
     "casinozondercruks",
-    "xoo",
-    "newbitcoincasinos",
+    "nodepositpokies",
     "casinoenlineahex",
-    "newcasinobonuses",
-    "kasinohai"
+    "limeup",
+    "kasinohai",
+    "surebet",
+    "celltrackingapps",
+    "refermate",
+    "uudetkasinot",
+    "casinoburst",
+    "playcasinoscanada",
+    "noneedtostudy",
+    "bluechip",
+    "codeless",
+    "utansvensklicens",
+    "istartips",
+    "4rabet",
+    "new-onlinecasinos",
+    "casinoszondercruks",
+    "casinozonderregistratie",
+    "nongamstopcasinos",
+    "automatenspielex",
+    "thecasinodb",
+    "utlandskacasino",
+    "spielautomaten",
+    "slotozilla"
   ],
-  "footer": ["polygon", "inkoop", "kasinohai"]
+  "footer": ["polygon"]
 }
