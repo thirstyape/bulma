@@ -30,6 +30,13 @@ $input-icon-active-color: $text !default
 
 $input-radius: $radius !default
 
+=disabled
+  background-color: $input-disabled-background-color
+  border-color: $input-disabled-border-color
+  box-shadow: none
+  color: $input-disabled-color
+  +placeholder
+    color: $input-disabled-placeholder-color
 =input
   @extend %control
   background-color: $input-background-color
@@ -49,12 +56,7 @@ $input-radius: $radius !default
     box-shadow: $input-focus-box-shadow-size $input-focus-box-shadow-color
   &[disabled],
   fieldset[disabled] &
-    background-color: $input-disabled-background-color
-    border-color: $input-disabled-border-color
-    box-shadow: none
-    color: $input-disabled-color
-    +placeholder
-      color: $input-disabled-placeholder-color
+    +disabled
 
 %input
   +input
