@@ -1,0 +1,13 @@
+@import "../utilities/initial-variables"
+
+.masonry
+  column-count: 3
+  margin: $gap
+  column-gap: $gap
+  .masonry-item
+    margin: 0 0 $gap
+    display: inline-block
+    width: 100%
+  @for $i from 2 through 12
+    &.is-#{$i}
+      column-count: $i
