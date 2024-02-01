@@ -29,6 +29,9 @@ $label-colors: $form-colors !default
     &.is-#{$name}
       color: $color
 
+.is-disabled
+  +disabled
+
 // Containers
 
 .field
@@ -188,6 +191,12 @@ $label-colors: $form-colors !default
       top: 0
       width: $input-height
       z-index: 4
+      &.is-small
+        font-size: $size-small
+      &.is-medium
+        font-size: $size-medium
+      &.is-large
+        font-size: $size-large
   &.has-icons-left
     .input,
     .select select

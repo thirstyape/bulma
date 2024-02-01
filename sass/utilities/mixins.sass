@@ -92,15 +92,15 @@
     @content
 
 =until($device)
-  @media screen and (max-width: $device - 1px)
+  @media screen and (max-width: $device - 0.001px)
     @content
 
 =between($from, $until)
-  @media screen and (min-width: $from) and (max-width: $until - 1px)
+  @media screen and (min-width: $from) and (max-width: $until - 0.001px)
     @content
 
 =mobile
-  @media screen and (max-width: $tablet - 1px)
+  @media screen and (max-width: $tablet - 0.001px)
     @content
 
 =tablet
@@ -108,11 +108,11 @@
     @content
 
 =tablet-only
-  @media screen and (min-width: $tablet) and (max-width: $desktop - 1px)
+  @media screen and (min-width: $tablet) and (max-width: $desktop - 0.001px)
     @content
 
 =touch
-  @media screen and (max-width: $desktop - 1px)
+  @media screen and (max-width: $desktop - 0.001px)
     @content
 
 =desktop
@@ -121,12 +121,12 @@
 
 =desktop-only
   @if $widescreen-enabled
-    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1px)
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 0.001px)
       @content
 
 =until-widescreen
   @if $widescreen-enabled
-    @media screen and (max-width: $widescreen - 1px)
+    @media screen and (max-width: $widescreen - 0.001px)
       @content
 
 =widescreen
@@ -136,12 +136,12 @@
 
 =widescreen-only
   @if $widescreen-enabled and $fullhd-enabled
-    @media screen and (min-width: $widescreen) and (max-width: $fullhd - 1px)
+    @media screen and (min-width: $widescreen) and (max-width: $fullhd - 0.001px)
       @content
 
 =until-fullhd
   @if $fullhd-enabled
-    @media screen and (max-width: $fullhd - 1px)
+    @media screen and (max-width: $fullhd - 0.001px)
       @content
 
 =fullhd

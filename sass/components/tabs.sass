@@ -59,6 +59,14 @@ $tabs-toggle-link-active-color: $link-invert !default
       a
         border-bottom-color: $tabs-link-active-border-bottom-color
         color: $tabs-link-active-color
+    &[disabled]
+      background-color: $dark
+      color: $input-disabled-color
+      a
+        cursor: not-allowed
+        &:hover
+          background-color: $dark
+          color: $input-disabled-color
   ul
     align-items: center
     border-bottom-color: $tabs-border-bottom-color

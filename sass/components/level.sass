@@ -31,6 +31,16 @@ $level-item-spacing: ($block-spacing * 0.5) !default
     & > .level-item
       &:not(.is-narrow)
         flex-grow: 1
+  +desktop-only
+    &.level-vertical
+      display: inherit
+      .level-item:not(:last-child)
+        margin-bottom: $level-item-spacing
+  +tablet-only
+    &.level-vertical
+      display: inherit
+      .level-item:not(:last-child)
+        margin-bottom: $level-item-spacing
 
 .level-item
   align-items: center

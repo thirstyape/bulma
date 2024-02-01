@@ -1,0 +1,44 @@
+@media print
+  // Typography
+  .is-size-1
+    font-size: 33pt !important
+  .is-size-2
+    font-size: 27.5pt !important
+  .is-size-3
+    font-size: 22pt !important
+  .is-size-4
+    font-size: 16.5pt !important
+  .is-size-5
+    font-size: 14pt !important
+  .is-size-6
+    font-size: 11pt !important
+  .is-size-7
+    font-size: 8.5pt !important
+
+  // Visibility
+  body *
+    visibility: hidden
+  .is-displayed-print,
+  .is-displayed-print *
+    visibility: visible
+  .is-displayed-print-absolute
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+  .is-hidden-print
+    display: none !important
+  .is-invisible-print
+    visibility: hidden !important
+  .is-break-before
+    page-break-before: always
+    break-before: page
+  .is-break-after
+    page-break-after: always
+    break-after: page
+  .is-break-avoid
+    page-break-inside: avoid
+    break-inside: avoid
+
+  @page 
+    margin: 1cm
