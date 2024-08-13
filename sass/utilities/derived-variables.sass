@@ -4,6 +4,7 @@
 
 $primary: $turquoise !default
 $secondary: $purple !default
+$tertiary: $orange !default
 
 $info: $cyan !default
 $success: $green !default
@@ -30,6 +31,10 @@ $primary-dark: findDarkColor($primary) !default
 $secondary-invert: findColorInvert($secondary) !default
 $secondary-light: findLightColor($secondary) !default
 $secondary-dark: findDarkColor($secondary) !default
+$tertiary-invert: findColorInvert($tertiary) !default
+$tertiary-light: findLightColor($tertiary) !default
+$tertiary-dark: findDarkColor($tertiary) !default
+
 $info-invert: findColorInvert($info) !default
 $info-light: findLightColor($info) !default
 $info-dark: findDarkColor($info) !default
@@ -143,7 +148,7 @@ $shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($schem
 $custom-colors: null !default
 $custom-shades: null !default
 
-$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "secondary": ($secondary, $secondary-invert, $secondary-light, $secondary-dark), "link": ($link, $link-invert, $link-light, $link-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors) !default
+$colors: mergeColorMaps(("white": ($white, $black), "black": ($black, $white), "light": ($light, $light-invert), "dark": ($dark, $dark-invert), "primary": ($primary, $primary-invert, $primary-light, $primary-dark), "secondary": ($secondary, $secondary-invert, $secondary-light, $secondary-dark), "tertiary": ($tertiary, $tertiary-invert, $tertiary-light, $tertiary-dark), "link": ($link, $link-invert, $link-light, $link-dark), "info": ($info, $info-invert, $info-light, $info-dark), "success": ($success, $success-invert, $success-light, $success-dark), "warning": ($warning, $warning-invert, $warning-light, $warning-dark), "danger": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors) !default
 
 $shades: mergeColorMaps(("black-bis": $black-bis, "black-ter": $black-ter, "grey-darker": $grey-darker, "grey-dark": $grey-dark, "grey": $grey, "grey-light": $grey-light, "grey-lighter": $grey-lighter, "white-ter": $white-ter, "white-bis": $white-bis), $custom-shades) !default
 
