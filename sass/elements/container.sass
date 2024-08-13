@@ -34,14 +34,14 @@ $container-max-width: $eightk !default
     &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd)
       max-width: min($ultrawide, $container-max-width) - $container-offset
   +until-fourk
-    &.is-fourk:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide)
+    &.is-4k:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide)
       max-width: min($fourk, $container-max-width) - $container-offset
   +fourk
     &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide)
       max-width: min($fourk, $container-max-width) - $container-offset
   +until-eightk
-    &.is-eightk:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-fourk)
+    &.is-8k:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-4k)
       max-width: min($eightk, $container-max-width) - $container-offset
   +eightk
-    &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-fourk)
+    &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-4k)
       max-width: min($eightk, $container-max-width) - $container-offset
