@@ -26,6 +26,15 @@
 +fullhd
   +typography-size('fullhd')
 
++ultrawide
+  +typography-size('ultrawide')
+
++fourk
+  +typography-size('fourk')
+
++eightk
+  +typography-size('eightk')
+
 $alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'right': 'right')
 
 @each $alignment, $text-align in $alignments
@@ -59,6 +68,24 @@ $alignments: ('centered': 'center', 'justified': 'justify', 'left': 'left', 'rig
       text-align: #{$text-align} !important
   +fullhd
     .has-text-#{$alignment}-fullhd
+      text-align: #{$text-align} !important
+  +fullhd-only
+    .has-text-#{$alignment}-fullhd-only
+      text-align: #{$text-align} !important
+  +ultrawide
+    .has-text-#{$alignment}-ultrawide
+      text-align: #{$text-align} !important
+  +ultrawide-only
+    .has-text-#{$alignment}-ultrawide-only
+      text-align: #{$text-align} !important
+  +fourk
+    .has-text-#{$alignment}-fourk
+      text-align: #{$text-align} !important
+  +fourk-only
+    .has-text-#{$alignment}-fourk-only
+      text-align: #{$text-align} !important
+  +eightk
+    .has-text-#{$alignment}-eightk
       text-align: #{$text-align} !important
 
 .is-capitalized

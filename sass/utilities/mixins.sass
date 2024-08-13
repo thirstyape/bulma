@@ -149,6 +149,51 @@
     @media screen and (min-width: $fullhd)
       @content
 
+=fullhd-only
+  @if $fullhd-enabled and $ultrawide-enabled
+    @media screen and (min-width: $fullhd) and (max-width: $ultrawide - 0.001px)
+      @content
+
+=until-ultrawide
+  @if $ultrawide-enabled
+    @media screen and (max-width: $ultrawide - 0.001px)
+      @content
+
+=ultrawide
+  @if $ultrawide-enabled
+    @media screen and (min-width: $ultrawide)
+      @content
+
+=ultrawide-only
+  @if $ultrawide-enabled and $fourk-enabled
+    @media screen and (min-width: $ultrawide) and (max-width: $fourk - 0.001px)
+      @content
+
+=until-fourk
+  @if $fourk-enabled
+    @media screen and (max-width: $fourk - 0.001px)
+      @content
+
+=fourk
+  @if $fourk-enabled
+    @media screen and (min-width: $fourk)
+      @content
+
+=fourk-only
+  @if $fourk-enabled and $eightk-enabled
+    @media screen and (min-width: $fourk) and (max-width: $eightk - 0.001px)
+      @content
+
+=until-eightk
+  @if $eightk-enabled
+    @media screen and (max-width: $eightk - 0.001px)
+      @content
+
+=eightk
+  @if $eightk-enabled
+    @media screen and (min-width: $eightk)
+      @content
+
 =breakpoint($name)
   $breakpoint: map-get($breakpoints, $name)
   @if $breakpoint

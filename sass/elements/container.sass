@@ -1,7 +1,7 @@
 @import "../utilities/mixins"
 
 $container-offset: (2 * $gap) !default
-$container-max-width: $fullhd !default
+$container-max-width: $eightk !default
 
 .container
   flex-grow: 1
@@ -18,12 +18,30 @@ $container-max-width: $fullhd !default
   +until-widescreen
     &.is-widescreen:not(.is-max-desktop)
       max-width: min($widescreen, $container-max-width) - $container-offset
-  +until-fullhd
-    &.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen)
-      max-width: min($fullhd, $container-max-width) - $container-offset
   +widescreen
     &:not(.is-max-desktop)
       max-width: min($widescreen, $container-max-width) - $container-offset
+  +until-fullhd
+    &.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen)
+      max-width: min($fullhd, $container-max-width) - $container-offset
   +fullhd
     &:not(.is-max-desktop):not(.is-max-widescreen)
       max-width: min($fullhd, $container-max-width) - $container-offset
+  +until-ultrawide
+    &.is-ultrawide:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd)
+      max-width: min($ultrawide, $container-max-width) - $container-offset
+  +ultrawide
+    &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd)
+      max-width: min($ultrawide, $container-max-width) - $container-offset
+  +until-fourk
+    &.is-fourk:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide)
+      max-width: min($fourk, $container-max-width) - $container-offset
+  +fourk
+    &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide)
+      max-width: min($fourk, $container-max-width) - $container-offset
+  +until-eightk
+    &.is-eightk:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-fourk)
+      max-width: min($eightk, $container-max-width) - $container-offset
+  +eightk
+    &:not(.is-max-desktop):not(.is-max-widescreen):not(.is-max-fullhd):not(.is-max-ultrawide):not(.is-max-fourk)
+      max-width: min($eightk, $container-max-width) - $container-offset

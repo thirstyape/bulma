@@ -53,17 +53,23 @@ $block-spacing: 1.5rem !default
 
 // The container horizontal gap, which acts as the offset for breakpoints
 $gap: 32px !default
-// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+
+// 960, 1152, 1344, 1872, 3744, and 7584 have been chosen because they are divisible by both 12 and 16
 $tablet: 769px !default
-// 960px container + 4rem
-$desktop: 960px + (2 * $gap) !default
-// 1152px container + 4rem
-$widescreen: 1152px + (2 * $gap) !default
+$desktop: 960px + (2 * $gap) !default // 960px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default // 1152px container + 4rem
+$fullhd: 1344px + (2 * $gap) !default // 1344px container + 4rem
+$ultrawide: 1872px + (2 * $gap) !default // 1872px container + 4rem
+$fourk: 3744px + (2 * $gap) !default // 3744px container + 4rem
+$eightk: 7584px + (2 * $gap) !default // 7584px container + 4rem
+
 $widescreen-enabled: true !default
-// 1344px container + 4rem
-$fullhd: 1344px + (2 * $gap) !default
 $fullhd-enabled: true !default
-$breakpoints: ("mobile": ("until": $tablet), "tablet": ("from": $tablet), "tablet-only": ("from": $tablet, "until": $desktop), "touch": ("from": $desktop), "desktop": ("from": $desktop), "desktop-only": ("from": $desktop, "until": $widescreen), "until-widescreen": ("until": $widescreen), "widescreen": ("from": $widescreen), "widescreen-only": ("from": $widescreen, "until": $fullhd), "until-fullhd": ("until": $fullhd), "fullhd": ("from": $fullhd)) !default
+$ultrawide-enabled: true !default
+$fourk-enabled: true !default
+$eightk-enabled: true !default
+
+$breakpoints: ("mobile": ("until": $tablet), "tablet": ("from": $tablet), "tablet-only": ("from": $tablet, "until": $desktop), "touch": ("from": $desktop), "desktop": ("from": $desktop), "desktop-only": ("from": $desktop, "until": $widescreen), "until-widescreen": ("until": $widescreen), "widescreen": ("from": $widescreen), "widescreen-only": ("from": $widescreen, "until": $fullhd), "until-fullhd": ("until": $fullhd), "fullhd": ("from": $fullhd), "fullhd-only": ("from": $fullhd, "until": $ultrawide), "until-ultrawide": ("until": $ultrawide), "ultrawide": ("from": $ultrawide), "ultrawide-only": ("from": $ultrawide, "until": $fourk), "until-fourk": ("until": $fourk), "fourk": ("from": $fourk), "fourk-only": ("from": $fourk, "until": $eightk), "until-eightk": ("until": $eightk), "eightk": ("from": $eightk)) !default
 
 // Miscellaneous
 
