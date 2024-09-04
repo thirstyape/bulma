@@ -13,6 +13,12 @@ $dimensions: 16 24 32 48 64 96 128 192 256 384 512 768 1024 !default
       border-radius: $radius-rounded
   &.is-fullwidth
     width: 100%
+  &.is-inline
+    display: inline
+    img
+      max-height: 100%
+      margin: 0 auto
+      width: unset
   // Ratio
   &.is-square,
   &.is-1by1,
@@ -76,3 +82,9 @@ $dimensions: 16 24 32 48 64 96 128 192 256 384 512 768 1024 !default
           max-width: $dimension * 1px
           max-height: $dimension * 1px
           width: auto
+    &.is-#{$dimension}x#{$dimension}-min
+      min-height: $dimension * 1px
+      min-width: $dimension * 1px
+    &.is-#{$dimension}x#{$dimension}-max
+      max-height: $dimension * 1px
+      max-width: $dimension * 1px
